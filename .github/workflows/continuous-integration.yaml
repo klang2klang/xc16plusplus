@@ -52,7 +52,7 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v2
         with:
-          repository: 'fabio-d/xc16plusplus-source'
+          repository: 'klang2klang/xc16plusplus-source'
           ref: xc16++-${{ matrix.version }}
           path: xc16plusplus-source
 
